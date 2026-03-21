@@ -13,14 +13,13 @@
   min-height: 100vh;
 }
 
-.header {
-  height: 100vh;
-  min-height: 100vh;
-  min-height: 668px; 
-  position: relative;
-  padding: 10px 10px 66px;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+.header { 
+  height: 100vh; 
+  min-height: 100vh; 
+  position: relative; 
+  padding: 10px 10px 66px; 
+  display: grid; 
+  grid-template-rows: auto 1fr auto; 
 }
 
 .rec {
@@ -249,7 +248,6 @@
 
 .footer {
   min-height: 100vh;
-  min-height: 668px;
   height: 100vh;
   display: grid;
   place-items: center;
