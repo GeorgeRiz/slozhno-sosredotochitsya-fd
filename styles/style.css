@@ -63,10 +63,6 @@
   cursor: pointer;
 }
 
-/* .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.4);
-} */
-
 .header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
   border: 1px solid var(--button-hover-color);
 }
@@ -423,18 +419,6 @@
   .content-section__different-layout .cards {
   display: contents;
   }
-
- /* .content-section__different-layout .card:nth-child(1) {
-  grid-area: card1;
-  }
-
-  .content-section__different-layout .card:nth-child(2) {
-  grid-area: card2;
-  }
-
-  .content-section__different-layout .card:nth-child(3) {
-  grid-area: card3;
-  } */
 
 }
 
