@@ -13,12 +13,13 @@
   min-height: 100vh;
 }
 
-.header { 
-  height: 100vh; 
-  min-height: 668px; 
-  position: relative; 
-  padding: 10px 10px 66px; display: grid; 
-  grid-template-rows: auto 1fr auto; 
+.header {
+  height: 100vh;
+  min-height: 668px;
+  position: relative;
+  padding: 10px 10px 66px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .rec {
@@ -37,7 +38,7 @@
   margin-left: 10px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  box-shadow: 0px 0px 4px 2px #FF0070;
+  box-shadow: 0px 0px 4px 2px #ff0070;
 }
 
 .header__theme-menu {
@@ -154,7 +155,6 @@
   gap: 10px;
 }
 
-
 /* ===== ЗАГОЛОВКИ СЕКЦИЙ ===== */
 
 .section-title {
@@ -201,7 +201,6 @@
   font-size: 18px;
 }
 
-
 /* ===== ССЫЛКИ ===== */
 
 .link {
@@ -221,7 +220,6 @@
 .link:focus-visible {
   outline: 1px solid currentColor;
 }
-
 
 /* ===== ГАЛЕРЕЯ ===== */
 
@@ -263,13 +261,11 @@
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-
 /* =========================
    >= 768px
 ========================= */
 
 @media (width >= 768px) {
-
   .header {
     padding: 20px 20px 183px;
   }
@@ -293,13 +289,13 @@
   }
 
   .decorated-zone::before {
-  top: 19px;
-  right: 19px;
+    top: 19px;
+    right: 19px;
   }
 
   .decorated-zone::after {
-  bottom: 19px;
-  left: 19px;
+    bottom: 19px;
+    left: 19px;
   }
 
   /* ===МЭЙН=== */
@@ -361,18 +357,11 @@
   }
 }
 
-
-
-
-
-
-
 /* =========================
    >= 1024px
 ========================= */
 
 @media (width >= 1024px) {
-   
   .header__title {
     margin-top: 280px;
   }
@@ -401,28 +390,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
-
-
-
   .section-title__different-layout {
-  grid-area: title;
-  max-width: 315px;
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
-  }  
-
-  .content-section__different-layout .cards {
-  display: contents;
+    grid-area: title;
+    max-width: 315px;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
   }
 
+  .content-section__different-layout .cards {
+    display: contents;
+  }
 }
-
-
-
-
-

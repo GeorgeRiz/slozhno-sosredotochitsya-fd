@@ -15,11 +15,11 @@
   --title-color: #db00ff;
   --decor-color: #ff0070;
   --bg-image: url("../images/cover-image-dark.png");
-  --main-font: 'IBM Plex Mono', monospace;
+  --main-font: "IBM Plex Mono", monospace;
   --subtitle-bg-color: #ff0070;
   --subtitle-text-color: #000028;
   --section-title-color: #ff0070;
-  --button-hover-color: #FF007066; 
+  --button-hover-color: #ff007066;
   --decoration-color: #ff0070;
   --link-color: #f1b2ce;
   --link-shadow: #ff0070;
